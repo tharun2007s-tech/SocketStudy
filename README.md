@@ -1,4 +1,7 @@
-# Ex.No:1a  			Study of Socket Programming
+# Ex.No: 1a  			Study of Socket Programming
+
+# Name : Tharun S
+# Register Number : 212225240174
 
 ## Aim: 
 To perform a study on Socket Programming
@@ -52,6 +55,25 @@ Socket programming finds applications in various domains, including web developm
 3.	File Transfer Protocol: Protocols like FTP (File Transfer Protocol) utilize socket programming for transferring files between a client and a server.
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
+
+## Important Functions in Socket Programming
+
+| Function          | Description                                          |
+| ----------------- | ---------------------------------------------------- |
+| `socket.socket()` | Creates a new socket object for communication.       |
+| `bind()`          | Assigns IP address and port number to the socket.    |
+| `listen()`        | Enables the server to listen for client connections. |
+| `accept()`        | Accepts a client connection request.                 |
+| `datetime.now()`  | Gets the current system date and time.               |
+| `strftime()`      | Formats date and time into a string.                 |
+| `send()`          | Sends data through the socket.                       |
+| `encode()`        | Converts string data into bytes.                     |
+| `recv()`          | Receives data from the socket.                       |
+| `decode()`        | Converts received bytes into string format.          |
+| `close()`         | Closes the socket connection.                        |
+| `connect()`       | Connects the client socket to the server.            |
+| `getsockname()`   | Returns the socket’s own address and port number.    |
+
 
 
 ## Result:
